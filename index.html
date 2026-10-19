@@ -61,72 +61,145 @@
     <div class="card">
       <h1>Runway Privacy Policy</h1>
       <p class="updated">
-        Last updated: September 10, 2026
+        Last updated: October 19, 2026
       </p>
       <p>
         This Privacy Policy explains how Runway handles information when you
         use the Runway mobile application.
       </p>
-      <h2>1. Information We Collect</h2>
+      <h2>1. Information You Enter</h2>
       <p>
-        Runway does not collect or transmit personal information to our
-        servers.
+        Runway stores the name you choose to enter, budgets, transactions,
+        amounts, categories, notes, bills, savings information, and preferences
+        locally on your device to provide its budgeting features. We do not
+        upload these records to a developer-operated server.
       </p>
       <p>
-        When you use Runway, you may choose to provide your name within the
-        app. This information is stored locally on your device and is not
-        transmitted to us.
+        Optional Android SMS suggestions and optional usage analytics handle
+        additional information as explained below. You can use manual budgeting
+        without enabling either feature.
       </p>
-      <h2>2. How Your Data Is Stored</h2>
+      <h2>2. Storage, Backups, and Exports</h2>
       <p>
-        Information created or entered in Runway is stored locally on your
-        device using local device storage.
+        Runway does not operate a cloud database for your financial records.
+        Your device's operating system may back up or transfer the app's local
+        database and preferences according to your device and account settings.
+        The Android SMS suggestion queue is excluded from cloud backup and
+        device transfer. Transactions you choose to save, including their notes,
+        become ordinary financial records and may be included in device backups.
       </p>
       <p>
-        Runway does not operate a backend server for storing your personal
-        information, and we do not maintain a cloud database containing your
-        app data.
+        If you choose to export or share your records, the data is provided to
+        the destination or app you select. That destination's privacy practices
+        apply to the exported copy.
       </p>
       <h2>3. Data Sharing</h2>
       <p>
-        We do not sell, rent, or share your personal information with third
-        parties.
+        We do not sell or rent your personal information. Runway does not send
+        your financial records, SMS text, or extracted SMS payment details to
+        analytics providers. If you opt in to usage analytics, Google receives
+        the usage and device information described in section 4. Device backups
+        and exports you initiate are described in section 2.
       </p>
-      <h2>4. Analytics and Advertising</h2>
+      <h2>4. Optional Analytics and Advertising</h2>
       <p>
-        Runway does not use third-party advertising services or analytics
-        services to track your activity within the app.
-      </p>
-      <h2>5. Location and Device Permissions</h2>
-      <p>
-        Runway does not collect or use your precise location or GPS data.
+        On Android, Runway uses Google Analytics for Firebase only after you
+        agree to share usage analytics. This helps us understand which features
+        are used, where users encounter difficulty, and how to improve the app.
+        Analytics consent is separate from SMS and notification permissions.
       </p>
       <p>
-        Runway does not require access to sensitive device information such
-        as your contacts, photos, camera, microphone, or other sensitive
-        personal data.
+        Analytics includes events such as opening a feature or successfully
+        saving a transaction, together with standard app and device information,
+        app-instance identifiers, session and engagement information, and
+        approximate location derived from network information. This information
+        is pseudonymous, not a promise of anonymity. Runway does not include your
+        name, financial amounts, balances, transaction dates, categories, notes,
+        SMS sender, SMS text, or extracted payment details in analytics events.
+      </p>
+      <p>
+        You can change your choice in Settings under Share usage analytics.
+        Turning it off stops future analytics collection and resets local
+        analytics data and the app-instance identifier; it does not automatically
+        delete information already received by Google. Google processes and
+        retains that information under its applicable policies and the analytics
+        service's retention settings. See
+        <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>
+        and <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.
+      </p>
+      <p>
+        Runway does not show third-party advertisements. Advertising-ID
+        collection and advertising personalization are disabled. This analytics
+        integration is not enabled on iOS.
+      </p>
+      <h2>5. Optional SMS Suggestions and Device Permissions</h2>
+      <p>
+        On Android, you may enable Message suggestions to turn incoming INR
+        payment alerts into suggested transactions. After an in-app explanation
+        and your consent, Runway requests the RECEIVE_SMS permission. While the
+        feature is enabled, it can process new incoming SMS on your device,
+        including while the app is closed, to identify supported debit and credit
+        alerts. It does not read your existing SMS inbox or send SMS messages.
+      </p>
+      <p>
+        Message text is processed locally and is not stored by Runway or uploaded
+        to us or an analytics provider. Messages that do not match supported
+        payment formats, including recognized OTPs and failed or pending payment
+        alerts, do not become suggestions. For matching messages, Runway stores
+        the extracted amount, sender, message time, payment direction, a hashed
+        message identifier used to prevent duplicates, and review status locally.
+        Suggestions do not change your budget until you review and save them.
+      </p>
+      <p>
+        The local queue holds up to 200 entries. Entries older than 30 days are
+        removed when the queue is next accessed. Dismissing a suggestion hides it
+        from review but may retain its local entry until expiry or queue clearing
+        to prevent repeat suggestions. A hashed identifier for a saved suggestion
+        is retained in the local database to prevent the same message from being
+        added again, even if you later delete the saved transaction.
+      </p>
+      <p>
+        Turn off Suggest from incoming SMS in Message suggestions to stop
+        processing and clear the local suggestion queue. You may also revoke SMS
+        permission in Android app settings. Revoking permission stops SMS access;
+        turning the feature off in Runway additionally clears its queue. Neither
+        action deletes transactions you already saved. SMS suggestions are not
+        available on iOS.
+      </p>
+      <p>
+        Runway does not request precise location or GPS access, contacts,
+        camera, microphone, or photo-library access for these features.
       </p>
       <h2>6. Notifications</h2>
       <p>
-        Runway may use local notifications to provide reminders or other
-        features within the app. These notifications are scheduled and
-        handled locally on your device.
+        Runway may request notification permission to provide daily reminders
+        and purchase reminders. These notifications are scheduled and handled
+        locally on your device. You can manage reminders in the app or disable
+        notifications in your device settings.
       </p>
-      <h2>7. Data Deletion</h2>
+      <h2>7. Retention and Deletion</h2>
       <p>
-        Because Runway stores app data locally on your device, you can remove
-        that data by deleting the relevant information within the app or by
-        uninstalling the application, where applicable.
+        Your saved financial records remain in local app storage until you
+        delete them using the app's available controls or remove app storage.
+        To clear SMS suggestions, turn off the SMS feature as described above.
+        To remove all local Runway data, including retained message identifiers,
+        use your device's clear-app-storage controls or uninstall the app, where
+        supported. Device backups and copies you exported may remain separately;
+        manage or delete those through the relevant device, backup, or destination
+        service. Restoring a device backup may restore saved financial records.
       </p>
       <p>
-        We do not retain a copy of your locally stored information on our
-        servers.
+        We do not keep your local financial records on our servers. Disabling
+        analytics or removing local app data does not automatically erase
+        analytics already received by Google. If you have a privacy or deletion
+        request concerning information handled by us, contact us as described
+        in section 10.
       </p>
       <h2>8. Children's Privacy</h2>
       <p>
         Runway does not knowingly collect personal information from children.
-        Since Runway does not transmit personal information to our servers,
-        we do not maintain a database of children's personal information.
+        If you believe a child has provided personal information through the app,
+        please contact us using the details below so we can address the concern.
       </p>
       <h2>9. Changes to This Privacy Policy</h2>
       <p>
